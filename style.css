@@ -6,7 +6,7 @@ body, p {
     margin-left: 20px;
   }
 
-  bold, em {
+  strong, em {
     color:blue;
     margin-left: 20px;
   }
@@ -32,4 +32,15 @@ body, p {
   img {
     max-width: 800px;
     margin-left: 20px;
+  }
+
+  a {
+    color:brown;
+    text-transform: none;
+    text-decoration:none;
+  }
+
+  a:hover {
+    color:darkslateblue;
+    text-decoration:line-through;
   }
