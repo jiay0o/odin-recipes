@@ -1,6 +1,12 @@
-body, p {
+@font-face {
+  font-family: "Zen Old Mincho";
+  src: local("Zen Old Mincho"),
+  url("/font/ZenOldMincho-Regular.ttf") format("opentype") tech(color-COLRv1), url(/font/ZenOldMincho-Regular.ttf)
+  format("opentype"), url("/font/ZenOldMincho-Regular.ttf") format(ttf);
+}
+  body, p {
+    font-family: "Zen Old Mincho", serif;
     background-color: lightyellow;
-    font-family: Zen Old Mincho, serif;
     font-size: 20px;
     line-height: 1.5em;
     margin-left: 20px;
@@ -30,7 +36,6 @@ body, p {
   }
   
   img {
-    max-width: 800px;
     margin-left: 20px;
   }
 
