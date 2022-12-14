@@ -1,11 +1,5 @@
-@font-face {
-  font-family: "Zen Old Mincho";
-  src: local("Zen Old Mincho"),
-  url("/font/ZenOldMincho-Regular.ttf") format("opentype") tech(color-COLRv1), url(/font/ZenOldMincho-Regular.ttf)
-  format("opentype"), url("/font/ZenOldMincho-Regular.ttf") format(ttf);
-}
   body, p {
-    font-family: "Zen Old Mincho", serif;
+    font-family: "Zen Old Mincho", "Georgia", serif;
     background-color: lightyellow;
     font-size: 20px;
     line-height: 1.5em;
