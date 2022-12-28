@@ -1,45 +1,97 @@
-  body, p {
+  * {
+    margin:0;
+  }
+
+  body,
+  p {
     font-family: "Zen Old Mincho", "Georgia", serif;
     background-color: lightyellow;
     font-size: 20px;
-    line-height: 1.5em;
-    margin-left: 20px;
+    line-height: 2em;
   }
 
-  strong, em {
+  .wrap {
+    width:1200px;             
+    margin:auto;
+  }
+  
+  .header {
+    text-align: center;
+    height:65px;
+    padding-top: 1em;
+    background-color: orange;
+  }
+
+  .nav {
+    height:50px;
+  }
+
+  .container {
+    background:pink;
+  }
+  
+  .left {
+    width:30%;
+    height:auto;
+    float:left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  
+  .right {
+    width:70%;
+    height:auto;
+    float:left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  
+  .clear {
+    clear:both;
+  }
+  
+  .footer {
+    text-align: center;
+    height:65px;
+    padding-top: 1em;
+    background-color: orange;
+  }
+
+  strong, 
+  em {
     color:blue;
     margin-left: 20px;
   }
-  
+
   h1 {
     color:forestgreen;
     font-size: 35px;
-    margin-left: 20px;
   }
 
   h2 {
     color:orange;
     font-size: 30px;
-    margin-left: 20px;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
 
   h3 {
     color:blueviolet;
     font-size: 25px;
-    margin-left: 20px;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
   
-  img {
-    margin-left: 20px;
-  }
-
   a {
     color:brown;
-    text-transform: none;
     text-decoration:none;
   }
 
   a:hover {
     color:darkslateblue;
-    text-decoration:line-through;
+    text-decoration:none;
+  }
+
+  .main-image {
+    width:100%;
   }
