@@ -18,16 +18,10 @@
   .header {
     text-align: center;
     height:65px;
+    width: auto;
     padding-top: 1em;
+    margin: auto;
     background-color: orange;
-  }
-
-  .nav {
-    height:50px;
-  }
-
-  .container {
-    background:pink;
   }
   
   .left {
