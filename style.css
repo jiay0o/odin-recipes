@@ -34,8 +34,12 @@
     padding-bottom: 1em;
   }
 
+  nav {
+    padding: 5 5 5 5;
+  }
+
   ul {
-    padding: 0;
+    padding: 5;
   }
 
   ol {
@@ -52,27 +56,28 @@
     text-decoration:none;
   }
   
-  .header {
+  .header,
+  .footer {
     text-align: center;
     height:65px;
-    padding: 50px;
+    padding: 30px;
     background-color: orange;
   }
   
-  .left {
-    width:30%;
+  .menu {
+    width:25%;
     height:auto;
     float:left;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    margin: 5px;
+    padding: 10px;
   }
   
   .right {
     width:70%;
     height:auto;
     float:left;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    margin: 5px;
+    padding: 10px;
   }
   
   .main-image {
@@ -82,26 +87,9 @@
   .clear {
     clear:both;
   }
-  
-  .footer {
-    width: 1200px;
-    text-align: center;
-    height:65px;
-    padding-top: 1em;
-    background-color: orange;
-  }
 
   .wrap {
     width:1200px;             
     margin:auto;
-  }
-  
-  .header {
-    text-align: center;
-    height:65px;
-    width: auto;
-    padding-top: 1em;
-    margin: auto;
-    background-color: orange;
   }
   
