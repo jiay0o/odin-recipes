@@ -39,7 +39,7 @@
   }
 
   ul {
-    padding: 5;
+    padding: 0;
   }
 
   ol {
@@ -56,15 +56,15 @@
     text-decoration:none;
   }
   
-  .header,
-  .footer {
+  header,
+  footer {
     text-align: center;
     height:65px;
     padding: 30px;
     background-color: orange;
   }
   
-  .menu {
+  .left {
     width:25%;
     height:auto;
     float:left;
@@ -72,7 +72,7 @@
     padding: 10px;
   }
   
-  .right {
+  main {
     width:70%;
     height:auto;
     float:left;
